@@ -1,2 +1,0 @@
-# KazCraft
-My first site

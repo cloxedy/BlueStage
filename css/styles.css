@@ -1,0 +1,172 @@
+body {
+    
+    font-family: "Fixel Text";
+    font-weight: 400;
+    color: black;
+    /* background-color: #1e1e1e; */
+    background-color: white;
+}
+
+.attention-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e74c3c;
+    width: auto;
+    height: 30px;
+}
+
+.attention-container span {
+    font-family: "Fixel Display";
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    font-family: "Fixel Display";
+    font-weight: 600;
+    justify-content: start;
+    align-items: center;
+    /* background-color: black; */
+    width: auto;
+    height: 60px;
+}
+
+.BlueStage-container {
+    display: flex;
+    /* display: block;
+    justify-content: center;
+    background-color: aqua; */
+}
+
+.BlueStage-container a {
+    color: black;
+    font-size: 24px;
+    margin-left: 40px;
+    /* padding-left: 200px; */
+}
+
+.BlueStage-container a:hover {
+    opacity: 0.9;
+}
+
+.layout-with-sidebar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: darkgoldenrod; */
+    margin-top: 0.5px;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    /* background-color: #e74c3c; */
+}
+
+aside {
+    display: flex;
+    /* background-color: darkred;
+    width: 160px;
+    height: 160px;
+    margin-left: 200px;
+    padding-left: 200px;
+    width: 160px; */
+    background-color: rgb(250, 250, 250);
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
+
+aside a:hover {
+    color: cornflowerblue;
+}
+
+main {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 280px; */
+    background-color: rgb(250, 250, 250);
+    width: 65%;
+    /* height: auto; */
+}
+
+.h1-container {
+    /* display: inline-flex; */
+    flex-direction: column;
+    margin: 20px;
+    /* background-color: darkred; */
+}
+
+.h1-container h1 {
+    font-family: "Fixel Display";
+    font-weight: 600;
+}
+
+.head-image {
+    /* background-color: #e74c3c; */
+    width: auto;
+    height: 200px;
+    background-image: url(../assets/img/header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-bla-bla {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: #e74c3c; */
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.hr-line {
+    display: flex;
+    width: auto;
+    height: 0.5px;
+    background-color: rgb(213, 213, 213);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+@font-face {
+    font-family: "Fixel Display";
+    src: url(../assets/fonts/Fixel/Display/FixelDisplay-SemiBold.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fixel Display";
+    src: url(../assets/fonts/Fixel/Display/FixelDisplay-Medium.woff2) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fixel Text";
+    src: url(../assets/fonts/Fixel/Text/FixelText-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
