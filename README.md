@@ -1,1 +1,1 @@
-cloxedy.github.io/BlueStage/
+[cloxedy.github.io/BlueStage/](https://cloxedy.github.io/BlueStage/)
